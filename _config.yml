@@ -89,7 +89,7 @@ content:
   - title: Working Experience
     layout: list
     content:
-      - layout: left
+      - layout: top-left
         border: weak  
         title: Ernst & Young Hua Ming LLP (Beijing)
         sub_title: Audit Intern of FSO
