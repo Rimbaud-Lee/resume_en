@@ -95,8 +95,8 @@ content:
         sub_title: Audit Intern of FSO
         caption: January 2022 - March 2022
         link: https://www.ey.com/
-        quote: >
-          Building a better working world
+        # quote: >
+          # Building a better working world
         description: | # this will include new lines to allow paragraphs
           - Participated in the audit project of a listed company of a central enterprise, and participated in the preparation of 12 audit working papers, handling inquire and confirmation business, and evaluating client’s engagement programs;
           - Conduct credit review of some projects of some branch companies of client, analyze financial statements of the stakeholders nvolved and review project risks; Communicate with the project manager of the audited company, confirm business information and execution status;
@@ -109,8 +109,8 @@ content:
         sub_title: Audit Assistant
         caption: August 2021 - September 2021
         link: https://www.rsm.global/
-        quote: >
-          Integrity, people-oriented, cooperation and sharing, efficiency priority, fairness
+        # quote: >
+          # Integrity, people-oriented, cooperation and sharing, efficiency priority, fairness
         description: | # this will include new lines to allow paragraphs
           - Participated in the IPO project team, mainly responsible for checking current projects, checking the original vouchers and  accounting vouchers of the company; 
           - Calculated the accuracy of the internal financial statements of IPO companies, provided modification suggestions for  customers, completed the materials required for listing; 
@@ -123,8 +123,8 @@ content:
         sub_title: Intern of Aurora Plan
         caption: July 2021 - August 2021
         link: https://www.manulife.com/
-        quote: >
-          Decisions made easier. Lives made better.
+        # quote: >
+          # Decisions made easier. Lives made better.
         description: | # this will include new lines to allow paragraphs
             - Took part in the design of insurance products, divided project tasks, and provided plans for the formulation of basic clauses of  insurance products; 
             - Compared the similarities and differences, merits and demerits of insurance policies at home and abroad to provide theoretical  basis for insurance product design; 
