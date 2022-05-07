@@ -10,7 +10,7 @@ name: Li Lang
 title: Dongbei University of Finance and Economics
 email: rimbaud-lee@foxmail.com
 # email_title: Email (Email title override)
-phone: (+86)155-4164-1118
+phone: (+86) 155-4164-1118
 # phone_title: Phone (Phone title override)
 website: https://rimbaud-lee.github.io/
 # website_title: Web (Website title override)
@@ -61,6 +61,8 @@ about_content: | # this will include new lines to allow paragraphs
   - *CET-6: 533*
   - *MS Office, Python, MySQL, MongoDB, C#*
   - *Machine Learning, Neural Network, Time Series, Graph Mining*
+  - *IELT: Preparing...*
+  - *GMAT: Preparing...*
 
 
 content:
@@ -71,6 +73,7 @@ content:
         title: Dongbei University of Finance and Economics
         sub_title: Accounting
         caption: 2019 - 2023
+        link: https://www.dufe.edu.cn/
         # quote: >
           # Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
@@ -87,8 +90,9 @@ content:
     layout: list
     content:
       - layout: left
+        border: weak  
         title: Ernst & Young Hua Ming LLP (Beijing)
-        sub_title: Audit Intern of Financial Service Organization
+        sub_title: Audit Intern of FSO
         caption: January 2022 - March 2022
         link: https://www.ey.com/
         quote: >
@@ -100,6 +104,7 @@ content:
           - Use Python to clean data, split and integrate Excel tables automatically, and archive them to specified folders; The OCR program developed before was called to achieve batch extraction of data from picture PDF files to Excel, and assist to estimate client's transactions.
 
       - layout: left
+        border: weak
         title: RSM China CPA LLP (Beijing HQ)
         sub_title: Audit Assistant
         caption: August 2021 - September 2021
@@ -148,7 +153,7 @@ content:
           This script is written in <mark>Python</mark>, not only because of its simple syntax and clear logic, but also because  <mark>Python</mark> has many third-party libraries that can be called to facilitate the implementation of the program. For example, the <mark>PyMuPDF</mark> library can be used to convert image PDF to <mark>.jpg</mark> or <mark>.png</mark> format; <mark>PIL</mark> library for transforming the original image into grayscale image, <mark>OpenCV</mark> for performing specific area clipping to grayscale image, <mark>PyTesseract</mark> library for grayscale image text recognition, etc.
 
       - layout: top-middle
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+        # border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Homepage – Rimbaud-Lee
         link: https://rimbaud-lee.github.io/
