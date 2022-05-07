@@ -1,43 +1,43 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: Rimbaud-Lee/resume_en # Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+favicon: images/favicon.ico # Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Li Lang
+title: Dongbei University of Finance and Economics
+email: rimbaud-lee@foxmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: (+86)155-4164-1118
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: https://rimbaud-lee.github.io/
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+# twitter_username: jekyllrb
+github_username:  Rimbaud-Lee
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: rimbaud_lee
+linkedin_username: 朗-李-8160451aa
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+- title: Weibo
+  icon: fab fa-weibo
+  url: https://weibo.com/7190384565
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,69 +50,178 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Hi, my name is Li Lang, I am an outgoing, rigorous, diligent and studious person, and I majored in accounting in Dongbei University of Finance and Economics and will graduate in 2023. I am currently engaged in the research of time series prediction and graph mining.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  I have outstanding communication and interpersonal skills, and can quickly integrate into the team. In study and working life, my curiosity for knowledge makes me feel fulfilled. Meanwhile, I have a high sense of responsibility and initiative, and I can see more opportunities rather than challenges.
+
+  - *GPA: 3.61*
+  - *ACCA: 4/13*
+  - *CET-6: 533*
+  - *MS Office, Python, MySQL, MongoDB, C#*
+  - *Machine Learning, Neural Network, Time Series, Graph Mining*
+
 
 content:
+  - title: Education Background
+    layout: list
+    content:
+      - layout: left
+        title: Dongbei University of Finance and Economics
+        sub_title: Accounting
+        caption: 2019 - 2023
+        # quote: >
+          # Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          During my time at DUFE, I have acquired solid knowledge of economics and accounting, rich internship experience and student work experience, strong data analysis ability and mathematical and quantitative programming ability, and can skillfully use Python, SPSS and other programming and data processing tools. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          
+          - *Auduting 98*
+          - *Capital markets and Accounting 90*
+          - *Business statistics 92*
+          - *Data Processing and Programming 93*
+          - *Microeconomics 92*
+
+
+  - title: Working Experience
+    layout: list
+    content:
+      - layout: left
+        title: Ernst & Young Hua Ming LLP (Beijing)
+        sub_title: Audit Intern of Financial Service Organization
+        caption: January 2022 - March 2022
+        link: https://www.ey.com/
+        quote: >
+          Building a better working world
+        description: | # this will include new lines to allow paragraphs
+          - Participated in the audit project of a listed company of a central enterprise, and participated in the preparation of 12 audit working papers, handling inquire and confirmation business, and evaluating client’s engagement programs;
+          - Conduct credit review of some projects of some branch companies of client, analyze financial statements of the stakeholders nvolved and review project risks; Communicate with the project manager of the audited company, confirm business information and execution status;
+          - Through communication with stakeholders of client, confirmed confirmation information, made more than 30 confirmation letters, and went to third-party organizations for face-to-face confirmation for many times, and assisted in the successful completion of confirmation business;
+          - Use Python to clean data, split and integrate Excel tables automatically, and archive them to specified folders; The OCR program developed before was called to achieve batch extraction of data from picture PDF files to Excel, and assist to estimate client's transactions.
+
+      - layout: left
+        title: RSM China CPA LLP (Beijing HQ)
+        sub_title: Audit Assistant
+        caption: August 2021 - September 2021
+        link: https://www.rsm.global/
+        quote: >
+          Integrity, people-oriented, cooperation and sharing, efficiency priority, fairness
+        description: | # this will include new lines to allow paragraphs
+          - Participated in the IPO project team, mainly responsible for checking current projects, checking the original vouchers and  accounting vouchers of the company; 
+          - Calculated the accuracy of the internal financial statements of IPO companies, provided modification suggestions for  customers, completed the materials required for listing; 
+          - By using Python and Excel plugins to solve tedious and repetitive work, promote office automation and improve efficiency,  the specific problems solved including:
+            - Crawling the target enterprises’ public financial data from the Internet and automatically calculate the relevant financial  indicators; 
+            - Writing automatic OCR program, realize batch extraction of specific contents of files, and match them with out-of-order  file protocol number groups in Excel, and fill in corresponding contract certificate numbers automatically.
+
+      - layout: left
+        title: Manulife Financial (Hong Kong)
+        sub_title: Intern of Aurora Plan
+        caption: July 2021 - August 2021
+        link: https://www.manulife.com/
+        quote: >
+          Decisions made easier. Lives made better.
+        description: | # this will include new lines to allow paragraphs
+            - Took part in the design of insurance products, divided project tasks, and provided plans for the formulation of basic clauses of  insurance products; 
+            - Compared the similarities and differences, merits and demerits of insurance policies at home and abroad to provide theoretical  basis for insurance product design; 
+            - Understood the basic structure and operation logic of commercial insurance, and learned the development history and  characteristic of insurance at home and abroad.
+
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: OCR-Pro
+        link: github.com/Rimbaud-Lee/OCR_Pro
+        # link_text: Link Text
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: Rimbaud-Lee/OCR_Pro
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            url: github.com/Rimbaud-Lee/OCR_Pro
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Ocr-pro is a Python script designed to batch local OCR recognition of picture PDF, and create Excel tables, grouping and filling in the content.
+        description: | # this will include new lines to allow paragraphs
+          This script is written in <mark>Python</mark>, not only because of its simple syntax and clear logic, but also because  <mark>Python</mark> has many third-party libraries that can be called to facilitate the implementation of the program. For example, the <mark>PyMuPDF</mark> library can be used to convert image PDF to <mark>.jpg</mark> or <mark>.png</mark> format; <mark>PIL</mark> library for transforming the original image into grayscale image, <mark>OpenCV</mark> for performing specific area clipping to grayscale image, <mark>PyTesseract</mark> library for grayscale image text recognition, etc.
+
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Homepage – Rimbaud-Lee
+        link: https://rimbaud-lee.github.io/
+        # link_text: Link Text
+        additional_links:
+          - title: Rimbaud-Lee/Rimbaud-Lee.github.io
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            url: github.com/Rimbaud-Lee/Rimbaud-Lee.github.io
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+          A modern simple static personal homepage website. Powered by Hexo and GitHub pages.
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
-    layout: list
+          - Used Github as a website deployment and code hosting platform, and built the website with Hexo framework based on  Node.js;
+          - Made LeanCloud, MongoDB as a back-end management platform to organize data and maintain the website;
+          - Uploaded study notes sharing and technical articles on the homepage occasionally, and wrote 10+ technical articles.
+
+
+  - title: Student Work # Title for the section
+    layout: list # Type of content section (list/text)
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
+      - layout: left
+        title: DUFE “Visit to Alma Mater” Volunteer Activity
+        sub_title: Member
+        caption: November 2019 - March 2020
+        # quote: >
+          # Building a better working world
         description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
+            - “Visit to Alma Mater” was a volunteer activity hosted by the student union of DUFE, which was aimed at visiting Alma Mater  and promoting Dongbei University of Finance and Economics; 
+            - Assisted the five-member team in completing the publicity work, and took charge of making presentation slides and writing  manuscript for the presentation; 
+            - Attracted more than 1,000 students to participate in this activity.
+
+      - layout: left
+        title: DUFE Showtime Website
+        sub_title: Network Publicity Dept., Member
+        caption: September 2019 - July 2020
+        # quote: >
+          # Building a better working world
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+            - Responsible for the media operation of the Showtime website; 
+            - Wrote over 10 articles on the public account, with more than 2,000 page views; 
+            - Communicated with the school Youth League Committee, and contributed to the success organization of a series of  public lectures on information technology of Showtime for over 200 participants.
+
+      - layout: left
+        title: DUFE Jianshan Reading Club
+        sub_title: Planning Dept., Member
+        caption: September 2019 - June 2020
+        # quote: >
+          # Building a better working world
+        description: | # this will include new lines to allow paragraphs
+            - Planned and managed the site operation, material distribution and other logistics of “Book Club”; 
+            - Participated in the planning of three “Book Club” activities, communicated with the school Youth League  Committee to obtain the right to use the activity site, and promoted the successful holding of “Book Club”.
+
+      - layout: left
+        title: DUFE Table Tennis Association
+        sub_title: Organization Dept., Member
+        caption: September 2019 - June 2020
+        # quote: >
+          # Building a better working world
+        description: | # this will include new lines to allow paragraphs
+            - Organized logistic work for school competition hosted by DUFE table tennis association for several times; 
+            - Arranged logistic work for two university-level table tennis competitions and one fellowship tournament, contributed to the  successful holding of the competition with a total number of participants of more than 100.
+
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      When I'm not sat at my desk I am very active and spend most of my time outdoors. I do a lot a sports such as table tennis and road cycling as well as trying to make time for things like doing calligraphy, watching movies and reading. I also upload videos on Bilibili as an Uper, mainly transferring videos of classic movies and great actors from Youtube to Bilibili by adding Chinese subtitles and proofreading the timeline. So far, the total number of views has exceeded 200,000. If you would like to take a look - [Xiaoxian-Deng](https://space.bilibili.com/475361336)
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
