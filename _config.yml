@@ -54,7 +54,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Li Lang, I am an outgoing, rigorous, diligent and studious person, and I majored in accounting in Dongbei University of Finance and Economics and will graduate in 2023. I am currently engaged in the research of time series prediction and graph mining.
 
-  I have outstanding communication and interpersonal skills, and can quickly integrate into the team. In study and working life, my curiosity for knowledge makes me feel fulfilled. Meanwhile, I have a high sense of responsibility and initiative, and I can see more opportunities rather than challenges.
+  In study and working life, I have outstanding communication and interpersonal skills, and a high sense of responsibility and initiative. Meanwhile, I am full of curiosity about knowledge, because learning new knowledge can enrich myself. In a new environment, I can see more opportunities rather than challenges.
 
   - *GPA: 3.61*
   - *ACCA: 4/13*
@@ -77,7 +77,7 @@ content:
         # quote: >
           # Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          During my time at DUFE, I have acquired solid knowledge of economics and accounting, rich internship experience and student work experience, strong data analysis ability and mathematical and quantitative programming ability, and can skillfully use <mark>Python</mark>, <mark>SPSS</mark> and other programming and data processing tools. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          During my time at DUFE, I have acquired solid knowledge of economics and accounting, rich internship experience and student work experience, strong data analysis ability and mathematical and quantitative programming ability, and can skillfully use <mark>Python</mark>, <mark>SPSS</mark> and other programming and data processing tools. During my college life, I have gradually learned a lot about how to balance work and life, so I thouroughly enjoyed my time as university.
           
           - *Auduting 98*
           - *Capital markets and Accounting 90*
@@ -126,9 +126,9 @@ content:
         # quote: >
           # Decisions made easier. Lives made better.
         description: | # this will include new lines to allow paragraphs
-            - Took part in the design of insurance products, divided project tasks, and provided plans for the formulation of basic clauses of  insurance products; 
-            - Compared the similarities and differences, merits and demerits of insurance policies at home and abroad to provide theoretical  basis for insurance product design; 
-            - Understood the basic structure and operation logic of commercial insurance, and learned the development history and  characteristic of insurance at home and abroad.
+          - Took part in the design of insurance products, divided project tasks, and provided plans for the formulation of basic clauses of  insurance products; 
+          - Compared the similarities and differences, merits and demerits of insurance policies at home and abroad to provide theoretical  basis for insurance product design; 
+          - Understood the basic structure and operation logic of commercial insurance, and learned the development history and  characteristic of insurance at home and abroad.
 
 
   - title: Projects # Title for the section
@@ -150,7 +150,7 @@ content:
         quote: >
           Ocr-pro is a Python script designed to batch local OCR recognition of picture PDF, and create Excel tables, grouping and filling in the content.
         description: | # this will include new lines to allow paragraphs
-          This script is written in <mark>Python</mark>, not only because of its simple syntax and clear logic, but also because  <mark>Python</mark> has many third-party libraries that can be called to facilitate the implementation of the program. For example, the <mark>PyMuPDF</mark> library can be used to convert image PDF to <mark>.jpg</mark> or <mark>.png</mark> format; <mark>PIL</mark> library for transforming the original image into grayscale image, <mark>OpenCV</mark> for performing specific area clipping to grayscale image, <mark>PyTesseract</mark> library for grayscale image text recognition, etc.
+          This script is written in <mark>Python</mark>, not only because of its simple syntax and clear logic, but also because  <mark>Python</mark> has many third-party libraries that can be called to facilitate the implementation of the program. For example, the <mark>PyMuPDF</mark> library can be used to convert image PDF to <mark>.jpg</mark> or <mark>.png</mark> format; <mark>PIL</mark> library for transforming the original image into grayscale image; <mark>OpenCV</mark> for performing specific area clipping to image; <mark>PyTesseract</mark> library for text recognition, etc.
 
       - layout: top-middle
         # border: weak  # Value of `weak` will display a weak border below this item. # Any 
@@ -183,9 +183,9 @@ content:
         # quote: >
           # Building a better working world
         description: | # this will include new lines to allow paragraphs
-            - “Visit to Alma Mater” was a volunteer activity hosted by the student union of DUFE, which was aimed at visiting Alma Mater  and promoting Dongbei University of Finance and Economics; 
-            - Assisted the five-member team in completing the publicity work, and took charge of making presentation slides and writing  manuscript for the presentation; 
-            - Attracted more than 1,000 students to participate in this activity.
+          - “Visit to Alma Mater” was a volunteer activity hosted by the student union of DUFE, which was aimed at visiting Alma Mater  and promoting Dongbei University of Finance and Economics; 
+          - Assisted the five-member team in completing the publicity work, and took charge of making presentation slides and writing  manuscript for the presentation; 
+          - Attracted more than 1,000 students to participate in this activity.
 
       - layout: left
         title: DUFE Showtime Website
@@ -194,9 +194,9 @@ content:
         # quote: >
           # Building a better working world
         description: | # this will include new lines to allow paragraphs
-            - Responsible for the media operation of the Showtime website; 
-            - Wrote over 10 articles on the public account, with more than 2,000 page views; 
-            - Communicated with the school Youth League Committee, and contributed to the success organization of a series of  public lectures on information technology of Showtime for over 200 participants.
+          - Responsible for the media operation of the Showtime website; 
+          - Wrote over 10 articles on the public account, with more than 2,000 page views; 
+          - Communicated with the school Youth League Committee, and contributed to the success organization of a series of  public lectures on information technology of Showtime for over 200 participants.
 
       - layout: left
         title: DUFE Jianshan Reading Club
@@ -205,8 +205,8 @@ content:
         # quote: >
           # Building a better working world
         description: | # this will include new lines to allow paragraphs
-            - Planned and managed the site operation, material distribution and other logistics of “Book Club”; 
-            - Participated in the planning of three “Book Club” activities, communicated with the school Youth League  Committee to obtain the right to use the activity site, and promoted the successful holding of “Book Club”.
+          - Planned and managed the site operation, material distribution and other logistics of “Book Club”; 
+          - Participated in the planning of three “Book Club” activities, communicated with the school Youth League  Committee to obtain the right to use the activity site, and promoted the successful holding of “Book Club”.
 
       - layout: left
         title: DUFE Table Tennis Association
@@ -215,14 +215,16 @@ content:
         # quote: >
           # Building a better working world
         description: | # this will include new lines to allow paragraphs
-            - Organized logistic work for school competition hosted by DUFE table tennis association for several times; 
-            - Arranged logistic work for two university-level table tennis competitions and one fellowship tournament, contributed to the  successful holding of the competition with a total number of participants of more than 100.
+          - Organized logistic work for school competition hosted by DUFE table tennis association for several times; 
+          - Arranged logistic work for two university-level table tennis competitions and one fellowship tournament, contributed to the  successful holding of the competition with a total number of participants of more than 100.
 
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      When I'm not sat at my desk I am very active and spend most of my time outdoors. I do a lot a sports such as table tennis and road cycling as well as trying to make time for things like doing calligraphy, watching movies and reading. I also upload videos on Bilibili as an Uper, mainly transferring videos of classic movies and great actors from Youtube to Bilibili by adding Chinese subtitles and proofreading the timeline. So far, the total number of views has exceeded 200,000. If you would like to take a look - [Xiaoxian-Deng](https://space.bilibili.com/475361336)
+      When I'm not sat at my desk I am very active and spend most of my time outdoors. I do a lot a sports such as table tennis and road cycling as well as trying to make time for things like doing calligraphy, watching movies and reading. I like Mi Fu, like Guns N' Roses, like Robert De Niro, like Martin Scorsese, like all interesting things.
+      
+      I also upload videos on Bilibili as an Uper, mainly transferring videos of classic movies and great actors from Youtube to Bilibili by adding Chinese & English subtitles and proofreading the timeline. So far, the total number of views has exceeded 200,000. If you would like to take a look - [Xiaoxian-Deng](https://space.bilibili.com/475361336).
 
       [HERE](https://rimbaud-lee.github.io/resume_zh/) is my resume in Chinese.
 
