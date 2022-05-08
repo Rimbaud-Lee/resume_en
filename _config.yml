@@ -59,7 +59,7 @@ about_content: | # this will include new lines to allow paragraphs
   - *GPA: 3.61*
   - *ACCA: 4/13*
   - *CET-6: 533*
-  - *MS Office, Python, MySQL, MongoDB, C#*
+  - *<mark>MS Office</mark>, <mark>Python</mark>, <mark>MySQL</mark>, <mark>MongoDB</mark>, <mark>C#</mark>*
   - *Machine Learning, Neural Network, Time Series, Graph Mining*
   - *IELT: Preparing...*
   - *GMAT: Preparing...*
@@ -77,7 +77,7 @@ content:
         # quote: >
           # Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          During my time at DUFE, I have acquired solid knowledge of economics and accounting, rich internship experience and student work experience, strong data analysis ability and mathematical and quantitative programming ability, and can skillfully use Python, SPSS and other programming and data processing tools. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          During my time at DUFE, I have acquired solid knowledge of economics and accounting, rich internship experience and student work experience, strong data analysis ability and mathematical and quantitative programming ability, and can skillfully use <mark>Python</mark>, <mark>SPSS</mark> and other programming and data processing tools. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
           
           - *Auduting 98*
           - *Capital markets and Accounting 90*
@@ -98,10 +98,10 @@ content:
         # quote: >
           # Building a better working world
         description: | # this will include new lines to allow paragraphs
-          - Participated in the audit project of a listed company of a central enterprise, and participated in the preparation of 12 audit working papers, handling inquire and confirmation business, and evaluating client’s engagement programs;
+          - Participated in the audit project of a listed company of a central enterprise, and participated in the preparation of 12 audit working papers, handling inquire and confirmation business, and evaluating client's engagement programs;
           - Conduct credit review of some projects of some branch companies of client, analyze financial statements of the stakeholders nvolved and review project risks; Communicate with the project manager of the audited company, confirm business information and execution status;
           - Through communication with stakeholders of client, confirmed confirmation information, made more than 30 confirmation letters, and went to third-party organizations for face-to-face confirmation for many times, and assisted in the successful completion of confirmation business;
-          - Use Python to clean data, split and integrate Excel tables automatically, and archive them to specified folders; The OCR program developed before was called to achieve batch extraction of data from picture PDF files to Excel, and assist to estimate client's transactions.
+          - Use <mark>Python</mark> to clean data, split and integrate Excel tables automatically, and archive them to specified folders; The OCR program developed before was called to achieve batch extraction of data from picture PDF files to Excel, and assist to estimate client's transactions.
 
       - layout: left
         border: weak
@@ -114,7 +114,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Participated in the IPO project team, mainly responsible for checking current projects, checking the original vouchers and  accounting vouchers of the company; 
           - Calculated the accuracy of the internal financial statements of IPO companies, provided modification suggestions for  customers, completed the materials required for listing; 
-          - By using Python and Excel plugins to solve tedious and repetitive work, promote office automation and improve efficiency,  the specific problems solved including:
+          - By using <mark>Python</mark> and Excel plugins to solve tedious and repetitive work, promote office automation and improve efficiency,  the specific problems solved including:
             - Crawling the target enterprises’ public financial data from the Internet and automatically calculate the relevant financial  indicators; 
             - Writing automatic OCR program, realize batch extraction of specific contents of files, and match them with out-of-order  file protocol number groups in Excel, and fill in corresponding contract certificate numbers automatically.
 
@@ -168,8 +168,8 @@ content:
         quote: >
           A modern simple static personal homepage website. Powered by Hexo and GitHub pages.
         description: | # this will include new lines to allow paragraphs
-          - Used Github as a website deployment and code hosting platform, and built the website with Hexo framework based on  Node.js;
-          - Made LeanCloud, MongoDB as a back-end management platform to organize data and maintain the website;
+          - Used <mark>Github</mark> as a website deployment and code hosting platform, and built the website with <mark>Hexo</mark> framework based on <mark>Node.js</mark>;
+          - Made <mark>LeanCloud</mark>, <mark>MongoDB</mark> as a back-end management platform to organize data and maintain the website;
           - Uploaded study notes sharing and technical articles on the homepage occasionally, and wrote 10+ technical articles.
 
 
