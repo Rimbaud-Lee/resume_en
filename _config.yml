@@ -103,7 +103,7 @@ content:
           - Through communication with stakeholders of client, confirmed confirmation information, made more than 30 confirmation letters, and went to third-party organizations for face-to-face confirmation for many times, and assisted in the successful completion of confirmation business;
           - Use <mark>Python</mark> to clean data, split and integrate Excel tables automatically, and archive them to specified folders; The OCR program developed before was called to achieve batch extraction of data from picture PDF files to Excel, and assist to estimate client's transactions.
 
-      - layout: top-right # left
+      - layout: top # left
         border: weak
         title: RSM China CPA LLP (Beijing HQ)
         sub_title: Audit Assistant
@@ -118,7 +118,7 @@ content:
             - Crawling the target enterprises' public financial data from the Internet and automatically calculate the relevant financial  indicators; 
             - Writing automatic OCR program, realize batch extraction of specific contents of files, and match them with out-of-order  file protocol number groups in Excel, and fill in corresponding contract certificate numbers automatically.
 
-      - layout: right # left
+      - layout: top # left
         title: Manulife Financial (Hong Kong)
         sub_title: Intern of Aurora Plan
         caption: July 2021 - August 2021
