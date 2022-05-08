@@ -69,7 +69,7 @@ content:
   - title: Education Background
     layout: list
     content:
-      - layout: left
+      - layout: top # left
         title: Dongbei University of Finance and Economics
         sub_title: Accounting
         caption: 2019 - 2023
@@ -89,7 +89,7 @@ content:
   - title: Working Experience
     layout: list
     content:
-      - layout: left
+      - layout: top # left
         border: weak  
         title: Ernst & Young Hua Ming LLP (Beijing)
         sub_title: Audit Intern of FSO
@@ -103,7 +103,7 @@ content:
           - Through communication with stakeholders of client, confirmed confirmation information, made more than 30 confirmation letters, and went to third-party organizations for face-to-face confirmation for many times, and assisted in the successful completion of confirmation business;
           - Use <mark>Python</mark> to clean data, split and integrate Excel tables automatically, and archive them to specified folders; The OCR program developed before was called to achieve batch extraction of data from picture PDF files to Excel, and assist to estimate client's transactions.
 
-      - layout: left
+      - layout: top # left
         border: weak
         title: RSM China CPA LLP (Beijing HQ)
         sub_title: Audit Assistant
@@ -115,10 +115,10 @@ content:
           - Participated in the IPO project team, mainly responsible for checking current projects, checking the original vouchers and  accounting vouchers of the company; 
           - Calculated the accuracy of the internal financial statements of IPO companies, provided modification suggestions for  customers, completed the materials required for listing; 
           - By using <mark>Python</mark> and Excel plugins to solve tedious and repetitive work, promote office automation and improve efficiency,  the specific problems solved including:
-            - Crawling the target enterprises’ public financial data from the Internet and automatically calculate the relevant financial  indicators; 
+            - Crawling the target enterprises' public financial data from the Internet and automatically calculate the relevant financial  indicators; 
             - Writing automatic OCR program, realize batch extraction of specific contents of files, and match them with out-of-order  file protocol number groups in Excel, and fill in corresponding contract certificate numbers automatically.
 
-      - layout: left
+      - layout: top # left
         title: Manulife Financial (Hong Kong)
         sub_title: Intern of Aurora Plan
         caption: July 2021 - August 2021
@@ -155,7 +155,7 @@ content:
       - layout: top-middle
         # border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Homepage – Rimbaud-Lee
+        title: Homepage - Rimbaud-Lee
         link: https://rimbaud-lee.github.io/
         # link_text: Link Text
         additional_links:
@@ -223,6 +223,8 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       When I'm not sat at my desk I am very active and spend most of my time outdoors. I do a lot a sports such as table tennis and road cycling as well as trying to make time for things like doing calligraphy, watching movies and reading. I also upload videos on Bilibili as an Uper, mainly transferring videos of classic movies and great actors from Youtube to Bilibili by adding Chinese subtitles and proofreading the timeline. So far, the total number of views has exceeded 200,000. If you would like to take a look - [Xiaoxian-Deng](https://space.bilibili.com/475361336)
+
+      [HERE](https://rimbaud-lee.github.io/resume_zh/) is my resume in Chinese.
 
 
 # Footer
