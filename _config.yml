@@ -91,10 +91,23 @@ content:
     content:
       - layout: top # left
         border: weak  
-        title: Ernst & Young Hua Ming LLP (Beijing)
-        sub_title: Audit Intern of FSO
+        title: Deloitte Consulting (Shanghai) Co. Ltd.
+        sub_title: Consulting Intern, Beijing CBO Systems Delivery & Modernization
+        caption: June 2022 - September 2022
+        link: https://www2.deloitte.com/global/
+        # quote: >
+          # Building a better working world
+        description: | # this will include new lines to allow paragraphs
+          - Participated in the digital transformation project of a foreign automobile enterprise, mainly responsible for the purchase-sale-stock data analysis of after-sales service business scenarios;
+          - On Amazon Athena database interactive platforms, write <mark>SQL</mark> combined with business logic, analyze customer background data, identify abnormal data in specific business scenarios, and feedback to client to assist project delivery;
+          - Investigated common back-end database system information for the internal team, and wrote introduction documents to improve efficiency; Participated in the preparation of 9 copies of interface documents for data warehouse migration, made PPT and translated more than 40 copies of technical documents and meeting minutes based on business logic, and synchronized them to Confluence and Jira Agile project management platform.
+      
+      - layout: top # left
+        border: weak  
+        title: Ernst & Young Hua Ming LLP
+        sub_title: Audit Intern, Beijing FSO
         caption: January 2022 - March 2022
-        link: https://www.ey.com/en_gl
+        link: https://www.ey.com/en_gl/
         # quote: >
           # Building a better working world
         description: | # this will include new lines to allow paragraphs
@@ -105,8 +118,8 @@ content:
 
       - layout: top # left
         border: weak
-        title: RSM China CPA LLP (Beijing HQ)
-        sub_title: Audit Assistant
+        title: RSM China CPA LLP
+        sub_title: Audit Assistant, Beijing HQ
         caption: August 2021 - September 2021
         link: https://www.rsm.global/
         # quote: >
@@ -134,6 +147,25 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        # border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Stock Relationship Learning Forecasting Based on Neural Relational Inference
+        # link: 
+        # link_text: Link Text
+        # additional_links:
+        #   - title: Rimbaud-Lee/
+        #     icon: fab fa-github
+        #     url: github.com/Rimbaud-Lee/
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          A modern simple static personal homepage website. Powered by Hexo and GitHub pages.
+        description: | # this will include new lines to allow paragraphs
+          - The <mark>NRI</mark> model based on <mark>VAE</mark> structure is used as the basic model, and the mutual relationship of each stock in the public stock data is graphically represented to capture the dynamic relationship;
+          - Combined with <mark>AD-GCL</mark> model, disturbance structure is added to the neural network to prevent model overfitting and improve the generalization performance of graph neural network.
+      
       - layout: top-middle
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
