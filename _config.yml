@@ -148,7 +148,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        # border: weak  # Value of `weak` will display a weak border below this item. # Any 
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Stock Relationship Learning Forecasting Based on Neural Relational Inference
         # link: 
@@ -161,7 +161,7 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          A modern simple static personal homepage website. Powered by Hexo and GitHub pages.
+          Stock price prediction realized by Graph Neural Network.
         description: | # this will include new lines to allow paragraphs
           - The <mark>NRI</mark> model based on <mark>VAE</mark> structure is used as the basic model, and the mutual relationship of each stock in the public stock data is graphically represented to capture the dynamic relationship;
           - Combined with <mark>AD-GCL</mark> model, disturbance structure is added to the neural network to prevent model overfitting and improve the generalization performance of graph neural network.
